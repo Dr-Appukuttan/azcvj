@@ -27,8 +27,8 @@ $(document).ready(async function () {
       $("footer").append(`<h1 class="WhiteText">Social Media:</h1>
       <span class="FooterIcons" color="white" style="font-size: 40px">
         <a href="https://discord.gg/a9SHDpD"><i class="fab fa-discord"></i></a>
-        <a href="https://youtube.com/CodingWithSudhan"><i class="fab fa-youtube"></i></a>
-        <a href="https://github.com/SudhanPlayz"><i class="fab fa-github"></i></a>
+        <a href="https://youtube.com/PrivateBusYoutube"><i class="fab fa-youtube"></i></a>
+        <a href="https://instagram.com/abin_karukappallil?igshid=1jm1al5pl6kfp"><i class="fab fa-instagram"></i></a>
       </span>
       <br>
       <span class="WhiteText">Made by Abin Thomas &lt;3 </span>`)
