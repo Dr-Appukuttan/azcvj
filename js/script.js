@@ -31,7 +31,7 @@ $(document).ready(async function () {
         <a href="https://instagram.com/abin_karukappallil?igshid=1jm1al5pl6kfp"><i class="fab fa-instagram"></i></a>
       </span>
       <br>
-      <span class="WhiteText">Made by Abin Thomas &lt;3 </span>`)
+      <span class="WhiteText">Made by Abin Thomas </span>`)
       $("footer").show('slow');
     }, 1500)
   }, 3500);
