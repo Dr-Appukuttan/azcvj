@@ -17,7 +17,7 @@ $(document).ready(async function () {
   await Type("Loading...", 350);
   $("#FlyingConsole").show("slow")
   setTimeout(async function(){
-    document.title = "SudhanPlayz Website 🤗"
+    document.title = "Abin Karukappallil'S Website 🤗"
     $('link[rel=icon]').attr('href', '/assets/Logo.jpg');
     $("#FlyingConsole").hide("slow")
     await Type("Thanks for visiting this website 🤗", 120);
@@ -31,16 +31,16 @@ $(document).ready(async function () {
         <a href="https://github.com/SudhanPlayz"><i class="fab fa-github"></i></a>
       </span>
       <br>
-      <span class="WhiteText">Made by Sudhan &lt;3 </span>`)
+      <span class="WhiteText">Made by Abin &lt;3 </span>`)
       $("footer").show('slow');
     }, 1500)
   }, 3500);
 
   async function Continue(){
     $("#logo").show("slow")
-    await Type("Im Sudhan, 14 year old developer who loves to code with Javascript", 75)
+    await Type("Im Abin, undefined year old developer who loves to code with all languages", 75)
     setTimeout(async function(){
-      await Type("and more!", 100, "Im Sudhan, 14 year old developer who loves to code with Javascript <br>")
+      await Type("and more!", 100, "Im Abin, undefined year old developer who loves to code with all languages <br>")
       setTimeout(async function(){
         $("#logo").hide("slow")
         await Type("Opening Terminal...", 100)
@@ -65,7 +65,7 @@ $(document).ready(async function () {
     <span class="command-response">So i made this ubuntu terminal using my html,css,js skills. <br><span class="command-response"></span>Please add a star on <a href="https://github.com/SudhanPlayz/Website">GitHub</a>! Thank you for using this trash terminal 😁</span>
   </div>
   <div id="command">
-    <span id="user">root@SudhanPC:~$</span>
+    <span id="user">root@AbinPC:~$</span>
     <input id="command-input" type="text">
   </div>
 `)
@@ -108,14 +108,14 @@ $(document).ready(async function () {
     }else if(command === "clear"){
       $("#deadCommands").html("")
       $("#command-input").val("")
-    }else if(command === "sudhan"){
-      let NiceWords = ["Sudhan is epic", "Sudhan was built/coded this using html, css, js, jquery, font awesome icons", "Sudhan is OP", "Sudhan says ';-;'"]
+    }else if(command === "Abin"){
+      let NiceWords = ["Abin is epic", "Abin was built/coded this using html, css, js, jquery, font awesome icons", "Abin is OP", "Abin says ';-;'"]
       let word = NiceWords[Math.floor(Math.random() * NiceWords.length)];
       return word
     }else if(command === "echo"){
       if(args.length === 0)return "There is nothing to repeat what you say try using 'echo Hello World!'"
       else return args.join(" ")
-    }else if(command === "sudo"){
+    }else if(command === "Abin"){
       return "Why you wanted to use sudo when you are already on root ;-;"
     }else if(command === "set"){
       if(args[0] === "title"){
