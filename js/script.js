@@ -20,7 +20,7 @@ $(document).ready(async function () {
     document.title = "Abin Karukappallil'S Website 🤗"
     $('link[rel=icon]').attr('href', '/assets/Logo.jpg');
     $("#FlyingConsole").hide("slow")
-    await Type("Thanks for visiting this website 🤗", 120);
+    await Type("Thanks for visiting Ente website 🤗", 120);
     setTimeout(function(){
       Continue()
       $("footer").hide()
@@ -31,19 +31,19 @@ $(document).ready(async function () {
         <a href="https://github.com/SudhanPlayz"><i class="fab fa-github"></i></a>
       </span>
       <br>
-      <span class="WhiteText">Made by Abin &lt;3 </span>`)
+      <span class="WhiteText">Made by Abin Thomas &lt;3 </span>`)
       $("footer").show('slow');
     }, 1500)
   }, 3500);
 
   async function Continue(){
     $("#logo").show("slow")
-    await Type("Im Abin, undefined year old developer who loves to code with all languages", 75)
+    await Type("Im Abin Karukappallil, undefined year old developer who loves to code with all languages", 75)
     setTimeout(async function(){
-      await Type("and more!", 100, "Im Abin, undefined year old developer who loves to code with all languages <br>")
+      await Type("and more!", 100, "Im Abin Karukappallil, undefined year old developer who loves to code with all languages <br>")
       setTimeout(async function(){
         $("#logo").hide("slow")
-        await Type("Opening Terminal...", 100)
+        await Type("▶️Opening Terminal...", 100)
         setTimeout(function(){
           OpenTerminal()
         }, 5000)
@@ -62,10 +62,10 @@ $(document).ready(async function () {
     $('link[rel=icon]').attr('href', '/assets/Console.png');
     $("#terminal").append(`
     <div id="deadCommands">
-    <span class="command-response">So i made this ubuntu terminal using my html,css,js skills. <br><span class="command-response"></span>Please add a star on <a href="https://github.com/SudhanPlayz/Website">GitHub</a>! Thank you for using this trash terminal 😁</span>
+    <span class="command-response">So i made this ubuntu terminal using my html,css,js skills. <br><span class="command-response"></ubantu terminal aanu nee use cheytho help adichal commands varum 😁</span>
   </div>
   <div id="command">
-    <span id="user">root@AbinPC:~$</span>
+    <span id="user">root@AbinThomasPC:~$</span>
     <input id="command-input" type="text">
   </div>
 `)
@@ -77,7 +77,7 @@ $(document).ready(async function () {
       $("#command-input").val("")
       $("#deadCommands").append(`
       <div>
-      <span id="user">root@SudhanPC:~$</span>
+      <span id="user">root@AbinThomasPC:~$</span>
       <span>${command}</span>
       <br>
       <span class="command-response">${CommandResponse}</span>
@@ -104,7 +104,7 @@ $(document).ready(async function () {
     args.shift()
 
     if(command === "help"){
-      return `All Commands here you are running are case sensitive<br><span class="command-response">help, clear, sudhan, echo</span>`
+      return `All Commands here you are running are case sensitive<br><span class="command-response">help, clear,  Abin, echo</span>`
     }else if(command === "clear"){
       $("#deadCommands").html("")
       $("#command-input").val("")
