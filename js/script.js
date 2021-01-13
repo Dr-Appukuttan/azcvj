@@ -24,8 +24,8 @@ $(document).ready(async function () {
     setTimeout(function(){
       Continue()
       $("footer").hide()
-      $("footer").append(`<h2 class="WhiteText">Social Media:</h2>
-      <span class="FooterIcons" color="white" style="font-size: 20px">
+      $("footer").append(`<h3 class="WhiteText">Social Media:</h3>
+      <span class="FooterIcons" color="white" style="font-size: 40px">
         <a href="https://discord.gg/mQEbBRE6TK"><i class="fab fa-discord"></i></a>
         <a href="https://youtube.com/channel/UCOk3I3RFVpwA4IZH_Udp2FQ"><i class="fab fa-youtube"></i></a>
         <a href="https://instagram.com/abin_karukappallil?igshid=1jm1al5pl6kfp"><i class="fab fa-instagram"></i></a>
