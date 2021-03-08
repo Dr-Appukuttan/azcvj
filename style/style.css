@@ -1,0 +1,118 @@
+html {
+  scroll-behavior:smooth;
+}
+#link14 {
+  font-size:45px;
+}
+body {
+  background-color:#000000;
+  color:#ffffff;
+  font-size:28px;
+  text-align:center;
+  font-family:Baloo;
+}
+.sidenav1 a {
+  position:fixed;
+  right: -77px;
+  z-index:0;
+  transition: 0.5s;
+  padding: 15px;
+  width: 155px;
+  text-decoration: none;
+  font-size: 24.4px;
+  color: #000000;
+  border-radius:6%;
+  background-color:#ffffff;
+}
+
+.sidenav1 a:hover {
+  right: 9.5;
+  background-color:#ff0000;
+}
+.sidenav2 a {
+  position:fixed;
+  right: -67px;
+  z-index:0;
+  transition: 0.5s;
+  padding: 15px;
+  width: 155px;
+  text-decoration: none;
+  font-size: 24.4px;
+  color: #ffffff;
+  border-radius:6%;
+  background-color:#000000;
+}
+.sidenav2 a:hover {
+  right: 9.5;
+  background-color:#0000ff;
+}
+#aboutmehover {top:280px}
+#aboutuhover {top:340px}
+#langhover {top:340px}
+#projecthover {top:400px}
+#oshover {top:459.5px}
+#disclaimerhover {top:550px}
+#pro {
+  border: 2.2px solid #000000;
+  text-align:center;
+  border-radius:66%;
+  border-color:#000000;
+}
+h1 {
+  font-size:95px;
+}
+h2{
+  font-size:73px;
+}
+h4 {
+  font-size:35px;
+}
+p {
+  font-size:22px;
+}
+form {
+  text-align:left;
+}
+ul {
+  font-size:24.4px;
+}
+a {
+  text-decoration:none;
+  color:#ff0000;
+}
+
+.glowblack {
+  font-size: 80px;
+  color: #000000;
+  -webkit-animation: glowblack 0.4s ease-in-out infinite alternate;
+  -moz-animation: glowblack 0.4s ease-in-out infinite alternate;
+  animation: glowblack 0.4s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowblack {
+  from {
+    text-shadow: 0 0 1px #ff0000, 0 0 11px #ff0000, 0 0 21px #ff0000, 0 0 31px #ff0000, 0 0 41px #ff0000, 0 0 51px #ff0000, 0 0 61px #ff0000;
+  }
+  to {
+    text-shadow: 0 0 29px #ff0000, 0 0 39px #ff0000, 0 0 49px #ff0000, 0 0 59px #ff0000, 0 0 69px #ff0000, 0 0 79px #ff0000, 0 0 89px #ff0000;
+  }
+}
+.glowwhite {
+  font-size: 80px;
+  color: #ffffff;
+  -webkit-animation: glowwhite 0.4s ease-in-out infinite alternate;
+  -moz-animation: glowwhite 0.4s ease-in-out infinite alternate;
+  animation: glowwhite 0.4s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowwhite {
+  from {
+    text-shadow: 0 0 1px #0000ff, 0 0 11px #0000ff, 0 0 21px #0000ff, 0 0 31px #0000ff, 0 0 41px #0000ff, 0 0 51px #0000ff, 0 0 61px #0000ff;
+  }
+  to {
+    text-shadow: 0 0 29px #0000ff, 0 0 39px #0000ff, 0 0 49px #0000ff, 0 0 59px #0000ff, 0 0 69px #0000ff, 0 0 79px #0000ff, 0 0 89px #0000ff;
+  }
+}
+.float {
+  
+}
